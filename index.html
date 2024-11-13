@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Chave para o Combate às Queimadas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>A Chave para o Combate às Queimadas</h1>
+        <nav>
+            <ul>
+                <li><a href="#intro">Início</a></li>
+                <li><a href="#apps">Apps e sites</a></li>
+                <li><a href="#clima">Influência do Clima</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="intro">
+        <h2>Bem-vindo</h2>
+        <p>Nosso objetivo é conscientizar sobre as queimadas, seus efeitos devastadores e como você pode ajudar no combate a 
+            esse problema. Neste site, você encontrará informações sobre como o clima influencia as queimadas, como usar
+             tecnologias disponíveis, e aprenderá sobre aplicativos que ajudam na prevenção e no monitoramento. Em um mundo 
+             cada vez mais afetado pelas mudanças climáticas, entender a importância da preservação ambiental e a forma de 
+             controlar queimadas é essencial. Junte-se a nós e veja como pequenas ações e o uso de tecnologia podem fazer uma 
+             grande diferença na proteção do meio ambiente.</p>
+    </section>
+
+    <section id="apps">
+        <h2>Aplicativos de Alerta</h2>
+        <p>Esses aplicativos ajudam as comunidades a receber alertas sobre queimadas:</p>
+        <ul>
+        <li><strong>BD Queimadas: </strong>Banco de Dados de Queimadas, do Instituto Nacional de Pesquisas Espaciais (INPE), que 
+            armazena dados geográficos sobre queimadas e está disponível para a sociedade civil e instituições públicas</li>
+           
+            <li><strong>SELVA: </strong>O Sistema Eletrônico de Vigilância Ambiental, é Aplicativo que utiliza dados de satélites da NASA, sensores e o modelo CAMS da 
+                ECMW para fornecer informações sobre queimadas e poluição do ar</li>
+        
+            <li><strong>Guardiões do Meio Ambiente: </strong>Aplicativo da Prefeitura de Mirante da Serra, em Rondônia, 
+                que permite a população denunciar queimadas urbanas e rurais</li>
+
+            <li><strong>Apaga o Fogo!: </strong>Plataforma online da Cemig que disponibiliza imagens de florestas em tempo real 
+                para usuários cadastrados. O aplicativo permite monitorar queimadas e acionar outros órgãos de combate a 
+                incêndios.</li>
+
+            <li><strong>Radar Ambiental: </strong>O Radar Ambiental é um aplicativo do Conselho Nacional do Ministério Público
+                 (CNMP) que permite aos cidadãos denunciar crimes ambientais em todo o Brasil. O aplicativo foi desenvolvido 
+                 inicialmente pelo Ministério Público do Estado do Amapá (MPAP). 
+            </li>
+
+          
+    
+        </ul>
+    </section>
+
+    <section id="clima">
+        <h2>Influência do Clima</h2>
+        <h3>Influência do Clima nas Queimadas: A Importância da Prevenção e Conscientização</h3>
+
+            <p>O clima desempenha um papel crítico na ocorrência e propagação das queimadas. Durante períodos de seca intensa, 
+                a baixa umidade, altas temperaturas e ventos fortes criam um ambiente propício para a formação de incêndios, que 
+                podem se alastrar com velocidade e devastar grandes áreas. Esses fatores climáticos, em combinação com atividades 
+                humanas como o desmatamento e a queima descontrolada, aumentam os riscos de incêndio.
+            
+            A previsão do tempo é uma ferramenta essencial para prever condições que favoreçam as queimadas. Monitorar o 
+            clima permite que autoridades e comunidades locais se preparem para evitar que pequenos focos se transformem em 
+            grandes incêndios. Mesmo pequenas mudanças no clima, como um aumento na temperatura ou a ausência de chuvas, podem 
+            impactar significativamente a segurança de ecossistemas inteiros.
+            
+            A conscientização ambiental é fundamental para reduzir as queimadas. Pequenas atitudes, como evitar queimar lixo em 
+            períodos de seca, respeitar as leis ambientais e denunciar atividades suspeitas, podem fazer uma grande diferença. 
+            Além disso, manter-se informado sobre o clima e utilizar ferramentas de monitoramento são maneiras eficazes de agir 
+            com responsabilidade e preservar o meio ambiente. Vamos juntos proteger nossas florestas e conscientizar mais pessoas 
+            sobre a importância de um planeta saudável e seguro.</p>
+        <button onclick="exibirClima()">Como o Clima Impacta as Queimadas?</button>
+        <p id="climaInfo"></p>
+    
+    </section>
+
+    <section id="noticias">
+        <h2 onclick="toggleSection('noticiasConteudo')">
+            Notícias <span class="seta">&#9662;</span>
+        </h2>
+        <div id="noticiasConteudo" class="conteudo-oculto">
+            <!-- Primeira notícia -->
+            <div class="noticia">
+                <h2>Incêndio controlado no Parque Estadual da Serra do Brigadeiro</h2>
+                <h3>Data: 28 de agosto de 2024</h3>
+                <p>Após cerca de dez dias de combate, uma força-tarefa conseguiu extinguir um incêndio de grandes proporções no 
+                    Parque Estadual da Serra do Brigadeiro, em Minas Gerais, uma área ambiental de grande relevância. Bombeiros, 
+                    brigadistas e voluntários atuaram juntos para conter as chamas, que causaram danos extensos à vegetação local.
+                     A origem do fogo ainda está sob investigação. As ações de controle foram essenciais para preservar o 
+                     ecossistema e evitar que o incêndio se alastrasse para outras regiões.</p>
+                <p><a href="https://g1.globo.com/mg/zona-da-mata/noticia/2024/08/28/apos-quase-10-dias-forca-tarefa-encerra-combate-a-incendio-de-grandes-proporcoes-no-parque-estadual-da-serra-do-brigadeiro-um-dos-mais-importantes-de-mg.ghtml" target="_blank" class="link-reportagem">Leia a reportagem completa</a></p>
+            </div>
+    
+            <!-- Segunda notícia -->
+            <div class="noticia">
+                <h2>Incêndio em Fervedouro causa prejuízo em serralheria</h2>
+                <h3>Data: 27 de setembro de 2024</h3>
+                <p>Um incêndio criminoso em um pasto, localizado próximo à MG-482, em Fervedouro, se alastrou e atingiu uma serralheria, causando grandes 
+                    danos. Amigos e trabalhadores do proprietário tentaram conter as chamas e salvar equipamentos. O incidente gerou prejuízos 
+                    materiais, morte de animais e agravamento da qualidade do ar, especialmente prejudicial para crianças, idosos e pessoas com 
+                    problemas respiratórios.</p>
+                <p><a href="https://paulorobertodaradio.com.br/site/?p=139002" target="_blank" class="link-reportagem">Leia a reportagem completa</a></p>
+            </div>
+    
+            <!-- Terceira notícia -->
+            <div class="noticia">
+                <h2>Empobrecimento químico e físico do solo pelas queimadas</h2>
+                <h3>Data: 13 de novembro de 2024</h3>
+                <p>As queimadas têm causado grande degradação do solo no Brasil, comprometendo sua fertilidade e estrutura 
+                    física. O artigo destaca que a alta temperatura destrói nutrientes e a matéria orgânica essencial para a 
+                    saúde do solo, afetando a capacidade de retenção de água e a produtividade agrícola. O impacto das queimadas
+                     é agravado pela recorrência e falta de controle, resultando em desertificação e prejuízos ao agronegócio e 
+                     ao meio ambiente.</p>
+                <p><a href="https://www.google.com.br/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.ecodebate.com.br/2024/11/13/empobrecimento-quimico-e-fisico-do-solo-pelas-queimadas/&ved=2ahUKEwicy6Hc3dmJAxWfpZUCHRgdDKQQ0PADKAB6BAhEEAE&usg=AOvVaw0CaV92kOvYVQoN246hITrF" target="_blank" class="link-reportagem">Leia a reportagem completa</a></p>
+            </div>
+    
+            <!-- Quarta notícia -->
+            <div class="noticia">
+                <h2>Ano de recorde de queimadas no Brasil</h2>
+                <h3>Data: 10 de outubro de 2024</h3>
+                <p>Entre janeiro e setembro de 2024, incêndios devastaram 22,38 milhões de hectares no Brasil, uma área 
+                    equivalente ao estado de Roraima, segundo o Monitor do Fogo. Aproximadamente 75% das queimadas atingiram 
+                    vegetação nativa, com a Amazônia como o bioma mais afetado. Mato Grosso, Pará e Tocantins lideram em área 
+                    queimada, impulsionadas principalmente pela agropecuária. Especialistas alertam para a necessidade de 
+                    fiscalização rigorosa e maior controle sobre o desmatamento e as queimadas.</p>
+                <p><a href="https://www.google.com.br/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.brasildefato.com.br/2024/10/10/em-ano-recorde-de-queimadas-fogo-ja-consumiu-area-do-tamanho-de-roraima%23:~:text%3DEntre%2520janeiro%2520e%2520setembro%2520de%25202024%252C%2520o%2520fogo%2520consumiu%2520uma,equivalente%2520ao%2520estado%2520de%2520Roraima.&ved=2ahUKEwiTh9_83dmJAxUTqpUCHTNTDHIQFnoECBMQBQ&usg=AOvVaw3myq0c4BZLm2VqaNq4QBEW" target="_blank" class="link-reportagem">Leia a reportagem completa</a></p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="imagens">
+        <h2 onclick="toggleSection('imagensConteudo')">
+            Imagens <span class="seta">&#9662;</span>
+        </h2>
+        <div id="imagensConteudo" class="conteudo-oculto">
+            <!-- Primeira imagem -->
+            <div class="imagem">
+                <img src="qm1.jpeg" alt="Imagem 1" />
+                <p class="legenda">Imagem 1- Agência Brasil - Foco de incêndio em área florestal.</p>
+            </div>
+    
+            <!-- Segunda imagem -->
+            <div class="imagem">
+                <img src="im43.png" alt="Imagem 2" />
+                <p class="legenda">Imagem 2- NASA - Fumaça de incêndios florestais cobrem o Brasil.</p>
+            </div>
+    
+            <!-- Terceira imagem -->
+            <div class="imagem">
+                <img src="incendio-serra-brigadeiro.jpg" alt="Imagem 3" />
+                <p class="legenda">Imagem 3- Paulo Roberto da radio - Serra do Brigadeiro em chamas.</p>
+            </div>
+        </div>
+    </section>
+    
+
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <strong>Você pode entrar em contato ou acompanhar os projetos escolares aqui:</strong>
+      
+        <p>Escola Estadual Joaquim Bartholomeu Pedrosa</p>
+        <p>Telefone: (32) 984252334</p>
+        <p><a href="https://www.instagram.com/ee_joaquim_bartholomeu_pedrosa/" target="_blank">Instagram: EEJBP</a></p>
+        <p><a href="https://www.instagram.com/novo_ensino_medio_bartho/" target="_blank">Instagram: Novo ensino médio</a></p>
+      </section>
+      
+
+
+    
+        <section id="suporte">
+            <h2>Suporte</h2>
+            <p>Você pode entrar em contato comigo através das seguintes formas:</p>
+            
+            <!-- Link para o Instagram -->
+            <p><a href="https://www.instagram.com/guilherme.glmg" target="_blank">Instagram: Guilherme.glmg </a></p>
+        
+            <!-- Link para o e-mail -->
+            <p><a href="mailto:guilhermegomeslima247@gmail.com">Enviar E-mail</a></p>
+        </section>
+        
+
+    <footer>
+        <p>&copy; E.E. Joaquim Bartholomeu Pedrosa 2024 Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
